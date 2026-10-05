@@ -1,0 +1,106 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Aug 12 13:53:20 2026
+
+@author: admi
+"""
+
+#ques8
+'''cost=int(input(('Enter the cost:'))
+revenue=int(input('Enter the revenue:'))
+if cost==revenue:
+    print('Break Even')
+elif cost>revenue:
+    print('Loss')
+elif revenue>cost:
+    print('Profit')
+'''
+
+#ques9
+'''noofwidgets:int(input('Enter the no. of widgets required:')) 
+if noofwidgets<=100:
+    print('Cost= Rupees.',noofwidgets*0.25)
+else:
+    print('Cost= Rupees.',noofwidgets*0.20)'''
+    
+#ques10
+'''
+number=int(input('Enter the number of pounds:'))
+amount=int(input('Enter the amount of cash:'))
+cost=number*2.5
+if amount<cost:
+    print('You owe $',cost-amount,'more.')
+else:
+    print('Visit again!')'''
+    
+#ques11
+'''a=int(input('Enter the first number:'))
+b=int(input('Enter the second number:'))
+c=int(input('Enter the third number:'))
+if a>b and a>c:
+    print('The largest number is:',a)
+elif b>c:
+    print('The largest number is:',b)
+else:
+    print('The largest number is:',c)'''
+    
+#ques12
+'''basic=int(input('Enter your basic salary:'))
+hra=basic*0.2 
+ta=basic*0.05
+da=basic*0.1 
+gross=basic+ta+da+hra
+print('Your gross salary is:',gross)
+    
+#ques13
+if gross<300000:
+    print('You will pay 0% income tax.')
+elif 300000<gross<1000000:
+    print('You will pay 10% income tax.')
+elif 1000000<gross<2500000:
+    print('You will pay 20% income tax.')
+elif 2500000<gross:
+    print('You will pay 30% income tax')'''
+    
+#ques14
+taxable=int(input('Enter your taxable income:'))
+if taxable<=20000:
+    tax=0.02*taxable
+elif taxable<=50000:
+    tax=400+0.025*(taxable-20000)  
+else:
+    tax=1150+0.035(taxable-50000)
+print('Your tax is:',tax)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
